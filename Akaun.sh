@@ -1,4 +1,4 @@
-#bin/bash
+#!/bin/bash
 
 data=( `ps aux | grep -i dropbear | awk '{print $2}'`);
 
